@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style2.css">
+  <script src="script.js"></script>
+  <title>salah business</title>
+</head>
+
+<body>
+  
+  <h1> تصاميم جرافيك</h1>
+  
+  <div class="container">
+    <nav>
+      <ul>
+        <li class="test" id="btnRedirec" onclick="afra7()">كروت افراح</a></li>
+        <li class="test" id="btnRedirect" onclick="graph()">كروت جرافيك</li>
+        <li class="test" id="btnRedire" onclick="call()">للتواصل</li>
+      </ul>
+    </nav>
+  </div>
+         
+        
+        
+
+  
+
+<script type="text/javascript" src="rediect.js"></script>  
+<script type="text/javascript">  
+$(function () {  
+    $("#btnRedirect").click(function () {  
+        var seconds = 5;  
+        $("#dvCountDown").show();  
+        $("#lblCount").html(seconds);  
+        setInterval(function () {  
+            seconds--;  
+            $("#lblCount").html(seconds);  
+            if (seconds == 0) {  
+                $("#dvCountDown").hide();  
+                window.location = "graphics.html";  
+            }  
+        }, 100);  
+    });  
+});  
+
+$(function () {  
+    $("#btnRedirec").click(function () {  
+        var seconds = 5;  
+        $("#dvCountDown").show();  
+        $("#lblCount").html(seconds);  
+        setInterval(function () {  
+            seconds--;  
+            $("#lblCount").html(seconds);  
+            if (seconds == 0) {  
+                $("#dvCountDown").hide();  
+                window.location = "index.html";  
+            }  
+        }, 100);  
+    });  
+});  
+
+$(function () {  
+    $("#btnRedire").click(function () {  
+        var seconds = 5;  
+        $("#dvCountDown").show();  
+        $("#lblCount").html(seconds);  
+        setInterval(function () {  
+            seconds--;  
+            $("#lblCount").html(seconds);  
+            if (seconds == 0) {  
+                $("#dvCountDown").hide();  
+                window.location = "profile.html";  
+            }  
+        }, 100);  
+    });  
+});  
+
+</script>  
+
+       <div id="myCard">
+    <div id="innerCard">
+        <div id="frontSide">
+            <p id="title"></p>
+        </div>
+        <div id="backSide">
+            <p id="title">صلاح اسماعيل</p>
+            <p>01032110286</p>
+        </div>
+    </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
