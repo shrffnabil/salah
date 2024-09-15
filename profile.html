@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style3.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+</head>
+
+<body>
+
+
+ <div id="logo1"></div>
+
+
+<div class="container">
+    <nav>
+      <ul>
+        <li class="test" id="btnRedirec" onclick="afra7()">كروت افراح</a></li>
+        <li class="test" id="btnRedirect" onclick="graph()">كروت جرافيك</li>
+        <li class="test" id="btnRedire" onclick="call()">للتواصل</li>
+      </ul>
+    </nav>
+  </div>
+         
+        
+        
+
+  
+
+<script type="text/javascript" src="rediect.js"></script>  
+<script type="text/javascript">  
+$(function () {  
+    $("#btnRedirect").click(function () {  
+        var seconds = 5;  
+        $("#dvCountDown").show();  
+        $("#lblCount").html(seconds);  
+        setInterval(function () {  
+            seconds--;  
+            $("#lblCount").html(seconds);  
+            if (seconds == 0) {  
+                $("#dvCountDown").hide();  
+                window.location = "graphics.html";  
+            }  
+        }, 100);  
+    });  
+});  
+
+$(function () {  
+    $("#btnRedirec").click(function () {  
+        var seconds = 5;  
+        $("#dvCountDown").show();  
+        $("#lblCount").html(seconds);  
+        setInterval(function () {  
+            seconds--;  
+            $("#lblCount").html(seconds);  
+            if (seconds == 0) {  
+                $("#dvCountDown").hide();  
+                window.location = "index.html";  
+            }  
+        }, 100);  
+    });  
+});  
+
+$(function () {  
+    $("#btnRedire").click(function () {  
+        var seconds = 5;  
+        $("#dvCountDown").show();  
+        $("#lblCount").html(seconds);  
+        setInterval(function () {  
+            seconds--;  
+            $("#lblCount").html(seconds);  
+            if (seconds == 0) {  
+                $("#dvCountDown").hide();  
+                window.location = "profile.html";  
+            }  
+        }, 100);  
+    });  
+});  
+
+</script>  
+
+
+
+
+
+      <div class="wrapper">
+         <div class="card front-face">
+            <img src="https://i.postimg.cc/ZYxD9j9b/salah.jpg">
+         </div>
+         <div class="card back-face">
+            <img src="https://i.postimg.cc/ZYxD9j9b/salah.jpg">
+            <div class="info">
+               <div class="title">
+            طريقه الدفع فودافون كاش
+               </div>
+               <p>
+                  للتواصل او عمل كرت شخصي واتس
+                  01032110286
+               </p>
+            </div>
+            <ul>
+               <a href="https://www.facebook.com/share/YexbcRSwgevpnUJu/?mibextid=A7sQZp" class="non"><i class="fa fa-facebook"></i></a>
+               <a href="https://m.youtube.com/@salo7a872" class="non"><i class="fa fa-youtube"></i></a>
+               <a href="https://t.me/gfggdhr" class="non"><i class="fa fa-telegram"></i></a>
+            </ul>
+         </div>
+      </div>
+
+
+
+</body>
+
+</html>
